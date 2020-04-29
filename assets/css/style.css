@@ -1,0 +1,451 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Raleway', sans-serif;*/
+
+/*home section*/
+
+.hidden {
+    display:none;
+}
+
+.body{
+  width:100%;
+  overflow:hidden;
+}
+
+.home {
+  position: absolute;
+  height:600px;
+  width:100%;
+  background-color: #FFF2D6;
+  margin: 0;
+  border: 0;
+  overflow:hidden;
+  }
+        .homeimg {
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        overflow:hidden;
+        
+        }
+        
+/*info section*/
+.info {
+  position: absolute;
+  top:600px;
+  height:700px;
+  width:100%;
+  background-color:#E4A082;
+}
+        .why {
+        position: absolute;
+        display: flex;
+        width:100%;
+        flex-direction: row;
+        justify-content: center;
+        
+        /*font*/
+        font-family: 'Abril Fatface', cursive;
+        font-size:100px;
+        color:#913131;
+        }
+        
+        .main {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width:700px;
+        top: 180px;
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        color:#913131;
+        }
+        
+        .which{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 700px;
+        top: 400px;
+        font-family: 'Abril Fatface', cursive;
+        font-size:30px;
+        color:#913131;
+        }
+
+        .click {
+        opacity: 0;
+        animation-name: scrollz;
+        animation-timing-function: ease-in;
+        animation-direction: alternate;
+        animation-duration: 1.5s;
+        animation-delay: 4.5s;
+        animation-iteration-count: infinite;
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        top: 460px;
+        font-family: 'Raleway', sans-serif;
+        font-size:30px;
+        color:#913131;
+        }
+        
+        #focacciapic{
+        /*positioning*/
+        position: absolute;
+        top: 600px;
+        width:33.3%;
+        height: auto;
+        
+        }
+        #o1{
+        /*positioning*/
+        position: absolute;
+        top: 600px;
+        /*size*/
+        height: auto;
+        width:33.3%;      
+        background-color: white;
+        opacity: 0.5;   
+        }
+        
+        
+        #loafpic{
+        /*positioning*/
+        position: absolute;
+        top: 600px;
+        left: 33.3%;
+        width:33.3%;
+        height: auto;
+        }
+        #o2{
+        /*positioning*/
+        position: absolute;
+        top: 600px;
+        left: 33.3%;
+        /*size*/
+        height: auto;
+        width:33.3%;
+        background-color: white;
+        opacity:0.5;   
+        }
+        
+        
+        #sweetpic{
+        /*positioning*/
+        position: absolute;
+        top: 600px;
+        left: 66.6%;
+        width:33.3%;
+        height: auto;
+        }
+        #o3{
+        /*positioning*/
+        position: absolute;
+        top: 600px;
+        left: 66.6%;
+        background-color: white;
+        opacity: 0.5;
+        
+        /*size*/
+        height: auto;
+        width:33.3%;  
+        }
+        
+
+#o1:hover{
+  cursor: pointer;
+}
+#o2:hover{
+  cursor: pointer;
+}
+#o3:hover{
+  cursor: pointer;
+}
+
+.buttons{
+  position: absolute;
+  left: 0;
+  top: 180%;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+   justify-content: space-around;
+}
+        
+#fbutton{
+	border-width: 0;
+	text-transform: uppercase;
+	background: transparent;
+	
+	font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color:#913131;
+}
+
+#lbutton {
+	border-width: 0;
+	text-transform: uppercase;
+	background: transparent;
+	
+	font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color:#913131;
+}
+
+#sbutton {
+	border-width: 0;
+	text-transform: uppercase;
+	background: transparent;
+	
+	font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color:#913131;
+}
+#fbutton:hover {
+	font-weight: bold;
+  text-decoration: underline;
+	border-width: 0;
+  cursor: pointer;
+}
+#lbutton:hover {
+	font-weight: bold;
+  text-decoration: underline;
+	border-width: 0;
+  cursor: pointer;
+}
+#sbutton:hover {
+	font-weight: bold;
+  text-decoration: underline;
+	border-width: 0;
+  cursor: pointer;
+}
+
+
+.recipe {
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+    left: 0;
+    background-color: #FFF2D6;
+}
+
+#focaccia {
+  height: 800px;
+}
+
+#basicloaf {
+  height: 850px;
+}
+#sweetrolls{
+  height: 920px;
+}
+
+.title {
+  font-family: 'Abril Fatface', cursive;
+  font-size:100px;
+  color:#913131;
+  text-decoration: underline;
+  position: absolute;
+  top:100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.columns {
+  position: absolute;
+  margin: auto;
+  top: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ingr {
+  width: 400px;
+}
+.hed{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight:bold;
+  color:#913131;
+}
+.bod{ 
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color:#913131;
+}
+.steps {
+  width: 400px;  
+}
+
+.final{
+  position:absolute;
+  bottom:100px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  font-family: 'Abril Fatface', cursive;
+  font-size:30px;
+  color:#913131;
+}
+
+@keyframes scrollz {
+  from {opacity:0.1;}
+  to {opacity:0.9;}
+}
+
+.scroll {
+    opacity: 0;
+    animation-name: scrollz;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight:bold;
+    color:#913131;
+
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+    top: 500px;
+    }
+
+
+@keyframes why {
+   0% {top:0;}
+   10% {transform: translateY(-20%)}
+   20% {transform: translateY(3%)}
+   49% {top:0;}
+   51% {top:0;}
+   90% {top:0;}
+   100% {top:0;}
+}
+
+    #wInWhy {
+    animation-name: why;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    
+    margin: 10px;
+    }
+    
+    #hInWhy{
+    animation-name: why;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    
+    margin: 10px;
+    }
+    #yInWhy{
+    animation-name: why;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    
+    margin: 10px;
+    }
+    #QMInWhy{
+    animation-name: why;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    
+    margin: 10px;
+    }
+
+@keyframes share {
+   0%    { opacity: 1;}
+   24.9% { opacity: 1;}
+   25%   { opacity: 0;}
+   50%   { opacity: 0;}
+   75%   { opacity: 0;}
+   100%  { opacity: 0;}
+}
+.share {
+  width: 100%;
+  background-color: #FFF2D6;
+  height:1000px;
+}
+    #share1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-55%);
+    animation-name: share;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    }
+    #share2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-55%);
+    animation-name: share;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    }
+    #share3 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-55%);
+    animation-name: share;
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    }
+    #share4 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-55%);
+    animation-name: share;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+    animation-iteration-count: infinite;
+    }
+    #share5 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-55%);
+    animation-name: share;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+    animation-iteration-count: infinite;
+    }
+    
+.goback {
+  position: absolute;
+  top: 900px;
+  left: 50%;
+  transform: translateX(-55%);
+  font-family: 'Abril Fatface', cursive;
+  font-size:40px;
+  color:#913131;
+  
+}    
+
+a:hover {
+  font-weight: bold;
+}
