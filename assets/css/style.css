@@ -290,21 +290,8 @@ font-family: 'Raleway', sans-serif;*/
   left: 50%;
   transform: translateX(-50%);
   
-  font-family: 'Abril Fatface', cursive;
-  font-size:30px;
 }
 
-a {
-  color:#913131;
-}
-
-a:hover {
-color:#913131;
-}
-
-a:link {
-  color:#913131;
-}
 
 @keyframes scrollz {
   from {opacity:0.1;}
@@ -457,7 +444,26 @@ a:link {
   color:#913131;
   
 }    
+a {
+  color:#913131;
+  font-family: 'Abril Fatface', cursive;
+  font-size:30px;
+}
+
+a:hover {
+color:#913131;
+  font-family: 'Abril Fatface', cursive;
+  font-size:30px;
+}
+
+a:link {
+  color:#913131;
+  font-family: 'Abril Fatface', cursive;
+  font-size:30px;
+}
 
 a:hover {
   font-weight: bold;
+  font-family: 'Abril Fatface', cursive;
+  font-size:30px;
 }
