@@ -3,9 +3,6 @@ font-family: 'Raleway', sans-serif;*/
 
 /*home section*/
 
-.a {
-  color:#913131;
-}
 
 .hidden {
     display:none;
@@ -295,6 +292,17 @@ font-family: 'Raleway', sans-serif;*/
   
   font-family: 'Abril Fatface', cursive;
   font-size:30px;
+}
+
+a {
+  color:#913131;
+}
+
+a:hover {
+color:#913131;
+}
+
+a:visited {
   color:#913131;
 }
 
